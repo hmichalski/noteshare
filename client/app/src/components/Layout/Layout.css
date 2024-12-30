@@ -1,0 +1,71 @@
+.buttons-wrapper {
+    display: inline-block;
+    margin-left: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+header img {
+    height: 64px;
+    width: auto;
+}
+
+header div {
+    margin-left: 24px;
+}
+
+header h2 {
+    margin-bottom: 12px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+header, main, footer {
+    font-family: Arial, sans-serif;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+main {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    flex: 1;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.buttons-wrapper button {
+    font-size: 16px;
+    background-color: white;
+    border: none;
+
+    padding: 4px 6px 4px 6px;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.buttons-wrapper button:last-child {
+    margin-right: 0px;
+}
+
+.buttons-wrapper a {
+    text-decoration: underline; /* Remove underline */
+    color: inherit; /* Inherit the color of the parent button */
+}

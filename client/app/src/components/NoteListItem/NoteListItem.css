@@ -1,0 +1,42 @@
+/* note-date */
+.note-item span {
+    font-size: 10px;
+    color: grey;
+}
+
+/* note-title */
+.note-item p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* wrapper for content*/
+.note-content {
+    display: inline-block;
+    margin: 0 24px 0px 24px;
+}
+
+.note-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    margin: 12px 24px 12px 24px;
+    border-radius: 4px;
+}
+
+.note-item button {
+    height: 100%;
+    margin-right: 24px;  
+    cursor: pointer;  
+
+    background: transparent;
+    border: none;
+}
+
+.button-icon {
+    width: auto;
+    height: 24px;
+}
