@@ -14,7 +14,7 @@ function Layout() {
           </div>
         <div className='buttons-wrapper'>
           <button>
-            <Link to="/">About</Link>
+            <Link to="/">Home</Link>
           </button>
           <button>
             <Link to="/noteshare">Noteshare</Link>

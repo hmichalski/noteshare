@@ -1,6 +1,6 @@
 import Carousel from "../Carousel/Carousel";
 
-function About() {
+function Home() {
     return (
         <>
             <h3>Cel</h3>
@@ -29,4 +29,4 @@ function About() {
     );
 }
   
-export default About;
+export default Home;
