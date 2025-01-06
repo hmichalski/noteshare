@@ -103,6 +103,7 @@
 .add-note-panel .input-wrapper + button:hover {
     cursor: pointer;
     background-color: rgb(220, 220, 220, 0.98);
+    text-decoration: underline;
 }
 
 .warning {
