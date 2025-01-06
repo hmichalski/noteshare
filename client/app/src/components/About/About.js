@@ -1,12 +1,14 @@
-function Home() {
+import Carousel from "../Carousel/Carousel";
+
+function About() {
     return (
         <>
-            <h4>Celem zadania było stworzenie aplikacji webowej składającej się z:</h4>
-            <ol type="a">
-                <li>Interfejsu REST API opartego o Express.js</li>
-                <li>Aplikacji React korzystającej z routera z pakietu <code>react-router-dom</code></li>
-            </ol>
-            <h4>ze szczegółowymi wymaganiami:</h4>
+            <h3>Cel</h3>
+            <p>
+                  Celem zadania było stworzenie aplikacji internetowej typu <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>
+                  &nbsp;wykorzystując do tego technologie poznane w trakcie semestru, z częścią kliencką w formacie <a href="https://en.wikipedia.org/wiki/Single-page_application">SPA.</a>
+            </p>
+            <h3>Wymagania</h3>
             <ul>
               <li>
                     Aplikacja React powinna zawierać: komponent listy obiektów i elementu listy. 
@@ -29,8 +31,10 @@ function Home() {
                     jako część URL. Router powinien również wyświetlać stronę 404 dla nierozpoznanego adresu URL.
               </li>
             </ul>
+            <h3>Technologie</h3>
+            <Carousel/>
         </>
     );
 }
   
-export default Home;
+export default About;

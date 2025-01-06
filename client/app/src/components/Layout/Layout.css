@@ -3,6 +3,14 @@
     margin-left: auto;
 }
 
+.buttons-wrapper img {
+    height: 24px;
+}
+
+#github-button {
+    padding-right: 0;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -61,11 +69,11 @@ main {
     cursor: pointer;
 }
 
-.buttons-wrapper button:last-child {
-    margin-right: 0px;
+.buttons-wrapper a {
+    color: inherit;
+    text-decoration: none;
 }
 
-.buttons-wrapper a {
-    text-decoration: underline; /* Remove underline */
-    color: inherit; /* Inherit the color of the parent button */
+.buttons-wrapper a:hover {
+    text-decoration: underline;
 }
