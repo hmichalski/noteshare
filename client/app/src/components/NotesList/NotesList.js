@@ -87,7 +87,7 @@ function NotesList() {
 
     return (
         <div className="notes-list">
-            <h2>Notes List</h2>
+            <h2>Notes list</h2>
             <div className="note-items-wrapper">
                 {notes.map(note => (
                     <NoteListItem key={note.id} note={note} onDelete={deleteNote} />
