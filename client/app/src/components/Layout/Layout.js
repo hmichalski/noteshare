@@ -17,7 +17,7 @@ function Layout() {
             <Link to="/">About</Link>
           </button>
           <button>
-            <Link to="/notes">Noteshare</Link>
+            <Link to="/noteshare">Noteshare</Link>
           </button>
           <button>
             <a href="https://github.com/hmichalski/noteshare" target="_blank" rel="noreferrer">

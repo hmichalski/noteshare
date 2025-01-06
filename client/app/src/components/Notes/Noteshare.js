@@ -1,9 +1,9 @@
 import NotesList from '../NotesList/NotesList';
 
-function Notes() {
+function Noteshare() {
     return (
         <NotesList />
     )
 }
   
-export default Notes;
+export default Noteshare;
