@@ -9,8 +9,8 @@ function Layout() {
       <header>
           <a href="https://pja.edu.pl/"><img src="/pjatk.png" alt="PJAIT logo "></img></a>
           <div>
-            <h2>Technologie internetu - Projekt zaliczeniowy</h2>
-            <p>gr. WIs I.5 A_BD 18c, sem. 24/25 zimowy</p>
+            <h2>Internet technologies - Final project</h2>
+            <p>gr. WIs I.5 A_BD 18c, sem. 24/25 winter</p>
           </div>
         <div className='buttons-wrapper'>
           <button>

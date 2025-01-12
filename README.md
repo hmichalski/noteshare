@@ -26,3 +26,5 @@ Outlet
 formularz z faktycznym inputem logowania i rejestracji, walidacja, backend na koniec i guess
 
 zmienic home zeby po angielsku bylo
+
+karuzela tez nie dziala

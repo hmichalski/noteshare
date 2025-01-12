@@ -28,18 +28,18 @@ const Carousel = () => {
 
     return (
         <Slider {...settings}>
-                {images.map((image, index) => (
-                    <div key={index}>
-                        <img
-                            src={image}
-                            alt={`Slide ${index + 1}`}
-                            style= {{
-                                height: "64px",
-                                width: "auto",
-                            }}
-                        />
-                    </div>
-                ))}
+            {images.map((image, index) => (
+                <div key={index}>
+                    <img
+                        src={image}
+                        alt={`Slide ${index + 1}`}
+                        style= {{
+                            height: "64px",
+                            width: "auto",
+                        }}
+                    />
+                </div>
+            ))}
         </Slider>
     );
 };
