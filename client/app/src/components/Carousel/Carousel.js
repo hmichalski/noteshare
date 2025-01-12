@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+//mozna dodac zeby kazdy img tez anchorem byl
 const Carousel = () => {
     const images = [
         "icons/html.png",

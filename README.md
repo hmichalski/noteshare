@@ -1,8 +1,7 @@
 # noteshare
 
-- umiedzynarodowienie 2 jezyki
-- dodatkowe uprawnienia dla admina
-- moze ze niezalogowany moze sobie w jakas gierke pograc
+- dodatkowe uprawnienia dla admina, ze moze wyswietlic wszystkie notesy np
+- moze ze niezalogowany moze sobie w jakas gierke pograc?
 - rejestracja i logowanie
 
 - paginacja notesów

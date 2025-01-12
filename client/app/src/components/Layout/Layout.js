@@ -21,7 +21,7 @@ function Layout() {
           </button>
           <button>
             <a href="https://github.com/hmichalski/noteshare" target="_blank" rel="noreferrer">
-                <img src="source-code.jpg" alt="Source code"/>
+                <img src="source-code.png" alt="Source code"/>
             </a>            
           </button>
           <button id="github-button">

@@ -25,7 +25,7 @@ function NotesList() {
 
     // initial notes fetch
     useEffect(() => {
-        fetch('http://localhost:3001/api/notes')
+        fetch('http://localhost:3001/notes')
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to fetch notes.");
@@ -48,7 +48,7 @@ function NotesList() {
                 date: formatDate(new Date())
             };
     
-            fetch('http://localhost:3001/api/notes', {
+            fetch('http://localhost:3001/notes', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newNoteObject),
@@ -71,7 +71,7 @@ function NotesList() {
     }
 
     function deleteNote(id) {
-        fetch(`http://localhost:3001/api/notes/${id}`, {
+        fetch(`http://localhost:3001/notes/${id}`, {
             method: 'DELETE',
         })
         .then(response => {

@@ -3,30 +3,30 @@ import Carousel from "../Carousel/Carousel";
 function Home() {
     return (
         <>
-            <h3>Cel</h3>
+            <h3>Goal</h3>
             <p>
-                  Celem zadania było stworzenie aplikacji internetowej typu <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>
-                  &nbsp;wykorzystując technologie poznane w trakcie semestru, z częścią kliencką w formacie <a href="https://en.wikipedia.org/wiki/Single-page_application">SPA.</a>
+                The goal of this project was to create <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> type web application,
+                using the technologies learned during the semester, with a client-side interface in the form of a <a href="https://en.wikipedia.org/wiki/Single-page_application">SPA.</a>
             </p>
-            <h3>Wymagania</h3>
+            <h3>Requirements</h3>
             <p>
-                  Właściwy plik z wymaganiami dołączony w repozytorium projektu, najważniejsze z nich:
+                Requirement file is included in the project's repository, the most crucial ones being:
             </p>
             <ul>
-              <li>Co najmniej 3 połączone tabele bazy danych, w tym jedna asocjacyjna wiele do wielu</li>
-              <li>Co najmniej 2 kolumny w każdej tabeli oprócz klucza podstawowego, 3 różne typy kolumn</li>
-              <li>Zakaz używania generatorów typu scaffold</li>
-              <li>Walidacja danych po stronie klienta i serwera</li>
-              <li>Dołączenie skryptu tworzącego bazę danych i wypełniającą ją przykładowymi danymi</li>
-              <li>Moduł rejestracji i logowania, z niezbędnymi tabelami bazy danych</li>
-              <li>Różne funkcjonalności zależne od statusu użytkownika, np. zalogowany, gość</li>
-              <li>Paginacja wyświetlanych list</li>
-              <li>Umiędzynarodowienie (co najmniej 2 języki)</li>
+              <li>At least 3 connected database tables, including one with many-to-many relationship</li>
+              <li>At least 2 columns in each table, apart from the primary key, with 3 different column types</li>
+              <li>No use of scaffolding generators</li>
+              <li>Data validation on both the client and server sides</li>
+              <li>Including a script to create the database and populate it with sample data</li>
+              <li>Registration and login module with the necessary database tables</li>
+              <li>Different functionalities depending on the user's status, e.g., logged in, guest</li>
+              <li>Pagination for displayed lists</li>
+              <li>Internationalization (at least 2 languages)</li>
             </ul>
-            <h3>Użyte technologie</h3>
-            <Carousel/>
+            <h3>Tech used</h3>
+            <Carousel />
         </>
     );
 }
-  
+
 export default Home;

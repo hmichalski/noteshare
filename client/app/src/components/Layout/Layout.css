@@ -65,6 +65,8 @@ main {
     margin-left: 12px;
     margin-right: 12px;
     cursor: pointer;
+
+    font-weight: bold;
 }
 
 .buttons-wrapper a {
