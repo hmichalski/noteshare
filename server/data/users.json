@@ -1,0 +1,33 @@
+[
+    {
+      "id": 101,
+      "username": "user1",
+      "email": "user1@example.com"
+    },
+    {
+      "id": 102,
+      "username": "user2",
+      "email": "user2@example.com"
+    },
+    {
+      "id": 103,
+      "username": "user3",
+      "email": "user3@example.com"
+    },
+    {
+      "id": 104,
+      "username": "user4",
+      "email": "user4@example.com"
+    },
+    {
+      "id": 105,
+      "username": "user5",
+      "email": "user5@example.com"
+    },
+    {
+      "id": 106,
+      "username": "user6",
+      "email": "user6@example.com"
+    }
+  ]
+  

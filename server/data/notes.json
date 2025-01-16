@@ -3,36 +3,64 @@
     "id": 1,
     "title": "Note 1",
     "body": "Note 1 body asdasd das",
-    "date": "2024-11-25T00:22:11Z"
+    "author": 101,
+    "date": "25-11-2024 00:22:11",
+    "sharedWith": [
+      102,
+      103
+    ]
   },
   {
     "id": 2,
     "title": "aasad",
     "body": "dddddd",
-    "date": "2025-01-12T20:35:54.759Z"
+    "author": 102,
+    "date": "12-01-2025 20:35:54",
+    "sharedWith": [
+      101
+    ]
   },
   {
     "id": 3,
     "title": "dsa",
     "body": "dsadsada",
-    "date": "2025-01-12T20:36:53.404Z"
+    "author": 103,
+    "date": "12-01-2025 20:36:53",
+    "sharedWith": []
   },
   {
     "id": 4,
-    "title": "dsa",
+    "title": "dsa1",
     "body": "dasddas",
-    "date": "2025-01-12T20:37:19.282Z"
+    "author": 104,
+    "date": "12-01-2025 20:37:19",
+    "sharedWith": [
+      101,
+      103
+    ]
   },
   {
     "id": 5,
     "title": "dasdas",
     "body": "dasdasdas",
-    "date": "2025-01-12T20:37:21.909Z"
+    "author": 105,
+    "date": "12-01-2025 20:37:21",
+    "sharedWith": []
   },
   {
-    "id": 6,
-    "title": "dsad",
-    "body": "asdasdadas",
-    "date": "2025-01-12T20:37:38.388Z"
+    "id": 19,
+    "title": "abc",
+    "body": "dasdasda",
+    "author": 101,
+    "date": "16-01-2025 23:27:51",
+    "sharedWith": []
+  },
+  {
+    "id": 20,
+    "title": "bca",
+    "body": "aaaaa",
+    "author": 101,
+    "date": "16-01-2025 23:30:52",
+    "sharedWith": []
   }
 ]
